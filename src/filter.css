@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.filter {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 297px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    border-radius: 16px;
+}
+
+.search-icon {
+    color: #eb5757;
+    width: 17px;
+    height: 17px;
+    margin: 0 19px;
+}
+
+.filter div {
+    display: flex;
+    padding: 0 16px;
+    border-right: 2px solid #f2f2f2;
+    height: 100%;
+    align-content: center;
+}
+
+.filter input {
+    color: #333;
+    outline: none;
+    border: none;
+    width: 100%;
+    text-align: center;
+}
+
+.filter input,
+input:placeholder-shown {
+    font-size: 14px;
+    font-family: "Mulish";
+    font-weight: normal;
+    line-height: 18px;
+    font-style: normal;
+}

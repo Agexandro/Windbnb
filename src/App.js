@@ -1,6 +1,8 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import View from './Hotels';
+import SearchBar from './filter';
+import Courtine from './curtain';
 
 function App() {
 
@@ -20,15 +22,17 @@ function App() {
   return (
     <main >
       <nav>
-        <img src="./logo.png" alt="logo" />
-        <div className="menu">
+        <div className="logo">
+          <img src="./logo.png" alt="logo" />
         </div>
+        <Courtine />
+        <SearchBar />
       </nav>
       <h1>Stays in Finland</h1>
       <div className="content">
         {
-          data.map(hotel => (
-            <View props={hotel} />
+          data.map((hotel,i) => (
+            <View key={"room_"+i} props={hotel} />
           ))
         }
       </div>

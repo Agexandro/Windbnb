@@ -1,0 +1,79 @@
+.smoke {
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(79, 79, 79, 0.4);
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.courtine {
+    padding-top: 97px;
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 40vh;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.courtine div {
+    display: flex;
+    height: 55px;
+    width: 28%;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 26px;
+}
+
+.courtine .location:hover,
+.guests:hover {
+    border: 1px solid #333;
+    box-shadow: (0px 1px 6px rgba(0, 0, 0, 0.1));
+    border-radius: 16px;
+}
+
+.courtine div label {
+    font-size: 9px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 11px;
+    font-family: "Mulish";
+    text-transform: uppercase;
+}
+
+.courtine input,
+input:placeholder-shown {
+    font-size: 14px;
+    font-family: "Mulish";
+    font-weight: normal;
+    line-height: 18px;
+    font-style: normal;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+.courtine a {
+    color: white;
+    background-color: #eb5757;
+    width: 127px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    font-size: 14px;
+    font-family: "Mulish";
+    font-weight: normal;
+    line-height: 18px;
+    font-style: normal;
+}
+
+.courtine a span {
+    color: white;
+}
